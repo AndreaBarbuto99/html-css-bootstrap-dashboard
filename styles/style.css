@@ -2,7 +2,6 @@ li {
     list-style-type: none;
 }
 
-
 .cs-img {
     width: 100%;
     height: 70px;
@@ -10,4 +9,18 @@ li {
 
 .cs-row td {
     padding-top: 1rem;
+}
+
+.cs-navbar li a:hover {
+    color: white !important;
+}
+
+.cs-pencil:hover {
+    background-color: grey;
+    color: white !important;
+}
+
+.cs-trash:hover {
+    background-color: grey;
+    color: white !important;
 }
