@@ -1,4 +1,8 @@
-.ab-img {
+.cs-img {
     width: 100%;
     height: 70px;
+}
+
+.cs-row td {
+    padding-top: 1rem;
 }
