@@ -57,28 +57,56 @@
         </div>
 
         <div class="container mt-5">
-            <div class="row">
+            <form class="row needs-validation">
                 <div class="col-6">
                     <label for="cs-name" class="form-label  fs-5">Nome Autore</label>
-                    <input type="text" class="form-control form-control-lg mt-1" id="cs-name" placeholder="Inserisci il nome dell'autore"
-                        aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control form-control-lg mt-1" id="cs-name"
+                        placeholder="Inserisci il nome dell'autore" aria-label="Nome Autore"
+                        aria-describedby="basic-addon1">
                 </div>
 
                 <div class="col-6">
                     <label for="cs-surname" class="form-label fw-normal fs-5">Cognome Autore</label>
-                    <input type="text" class="form-control form-control-lg mt-1" id="cs-surname" placeholder="Inserisci il cognome dell'autore"
-                        aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control form-control-lg mt-1" id="cs-surname"
+                        placeholder="Inserisci il cognome dell'autore" aria-label="Cognome Autore"
+                        aria-describedby="basic-addon1">
                 </div>
 
                 <div class="col-12 mt-4">
                     <label for="cs-title" class="form-label fw-normal fs-5">Titolo</label>
-                    <input type="text" class="form-control form-control-lg mt-1" id="cs-title" placeholder="Inserisci il titolo del libro"
-                        aria-label="Username" aria-describedby="basic-addon1 basic-addon2">
+                    <input type="text" class="form-control form-control-lg mt-1" id="cs-title"
+                        placeholder="Inserisci il titolo del libro" aria-label="Titolo" aria-describedby="basic-addon1">
                 </div>
-                <div class="form-text fs-6" id="basic-addon2">Titolo versione italiana</div>
+                <div class="form-text fs-6">Titolo versione italiana</div>
+                <!-- SELECT -->
+                <div class="col-4 mt-4">
+                    <label for="cs-genre" class="form-label fw-normal fs-5">Genere</label>
+                    <select class="form-select form-select-lg mt-1" id="cs-genre" aria-label="Genere">
+                        <option selected>Scegli il genere</option>
+                        <option value="novel">Romanzo</option>
+                        <option value="science-f">Fantascienza</option>
+                        <option value="yellow">Giallo</option>
+                        <option value="historic">Storici</option>
+                        <option value="fantasy">Fantasy</option>
+                    </select>
+                </div>
 
-               
-            </div>
+                <div class="col-4 mt-4">
+                    <label for="cs-year" class="form-label fw-normal fs-5">Anno di Pubblicazione</label>
+                    <input type="text" class="form-control form-control-lg mt-1" id="cs-year"
+                        placeholder="Inserisci l'anno" aria-label="Anno di Pubblicazione"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                <div class="col-4 mt-4">
+                    <label for="cs-isbn" class="form-label fw-normal fs-5">ISBN#</label>
+                    <input type="text" class="form-control form-control-lg mt-1" id="cs-isbn"
+                        placeholder="Inserisci il codice ISBN#" aria-label="Anno di Pubblicazione"
+                        aria-describedby="basic-addon1">
+                </div>
+
+                
+            </form>
         </div>
     </main>
 
